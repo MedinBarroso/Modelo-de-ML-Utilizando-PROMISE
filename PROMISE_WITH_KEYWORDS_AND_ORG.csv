@@ -1,0 +1,604 @@
+Project.ID,Requirement.description,NFR
+1,confidentiality',SE
+1,integrity',SE
+1,availability',SE
+1,accuracy',SE
+1,completeness',SE
+1,secure',SE
+1,access',SE
+1,registration',SE
+1,authorization',SE
+1,indentification',SE
+1,auhentication',SE
+1,validation',SE
+1,transaction',SE
+1,user',SE
+1,password',SE
+1,control',SE
+1,encryption',SE
+1,key',SE
+1,spoofing',SE
+1,attack',SE
+1,policy',SE
+1,logging',SE
+1,permission',SE
+1,register',SE
+1,protection',SE
+1,Usefulness',US
+1,uniformity',US
+1,simplicity',US
+1,operability',US
+1,intuitiveness',US
+1,adaptability',US
+1,comprehensibility',US
+1,friendliness',US
+1,performability',US
+1,accessibility',US
+1,configurability',US
+1,understability',US
+1,integration',US
+1,management',US
+1,usability',US
+1,compliance',US
+1,cognition',US
+1,applicability',US
+1,language',US
+1,support',US
+1,tutorial',US
+1,training',US
+1,help',US
+1,flexibility',US
+1,easy',US
+1,use',US
+1,graphic',US
+1,timeliness',US
+1,interface',US
+1,'The application shall match the color of the schema set forth by Department of Homeland Security',US
+1,' If projected  the data must be readable.  On a 10x10 projection screen  90% of viewers must be able to read Event / Activity data from a viewing distance of 30',US
+1,' If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100',US
+1,'The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts',SE
+1,'The product shall be intuitive and self-explanatory.  :  90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.',US
+2,'The look and feel of the system shall conform to the user interface standards of the smart device.',US
+2,' The user interface shall have standard menus  buttons for navigation',US
+2,'The system shall have a professional appearance',US
+2,'The product shall have a consistent color scheme and fonts.',US
+2,'The system shall be used by realtors with no training.',US
+2,'The system shall be intuitive and self explanatory.',US
+2,'The product shall be easy for a realtor to learn.',US
+2,'The product shall use symbols and words that are naturally understandable by the realtor community.',US
+2,'The product shall be installed by an untrained realtor   without recourse to separately-printed instructions.',US
+2,'90% of untrained realtors shall be able to install the product on their device without printed instructions',US
+2,'Only registered realtors shall be able to access the system.',SE
+2,'Every user of the system shall be authenticated and authorized.',SE
+2,'The product shall prevent its data from incorrect data being introduced.',SE
+3,'The system shall be easy to use by the Program Administrators/Nursing Staff Members.',US
+3,'All of the users shall be able to use the system after one day of training.',US
+3,'The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.',US
+3,'The number of mistakes noted by the students shall be decreased by 50% in the first year.',US
+3,'The system shall be intuitive to the Program Administrators/Nursing Staff Members.',US
+3,'2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.',US
+3,'The system shall use symbols and words that are naturally understandable by the user community.',US
+3,'The verbiage used within the system shall be consistent with Standard English and the terminology of the national Nursing Community.',US
+3,'Only authorized users shall have access to clinical site information.',SE
+3,'Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.',SE
+3,'Only authorized users shall have access to studentsï¿½ personal information.',SE
+3,'Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to studentsï¿½ personal information.',SE
+3,'Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.',SE
+3,'Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.',SE
+3,'The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.',SE
+3,'The system shall protect private information in accordance with the organizationï¿½s information policy.',SE
+3,'The system shall be built such that it is as secure as possible from malicious interference.',SE
+3,'The system shall use the organizationï¿½s standard virus protection software to help monitor threats to itself.',SE
+4,'The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.',US
+4,'All screens created as part of the Disputes application must comply with corporate standards for interface creation.',US
+4,'The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.',US
+4,'100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.',US
+4,'100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.',US
+4,'100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.',US
+4,'The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.',SE
+4,'Only users with Update access must be able to initiate dispute requests.',SE
+4,'The Disputes application shall ensure that only authorized users are allowed to logon to the application.',SE
+4,' All authorized users  once authenticated must be able to logon to the Disputes System',SE
+4,'The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing userï¿½s access level.  The report will be reviewed for auditing purposes.',SE
+4,'All additions of new users and modifications to userï¿½s access shall be recorded on the User Report.',SE
+4,' If a user account is revoked  it can only be re-instantiated by the System Administrator.',SE
+4,'Only the System Administrator shall be able to reset a revoked user logon account',SE
+4,'The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.',SE
+4,'All updates to data files or database must be initiated from the Disputes System.',SE
+5,'The product shall comply with corporate User Interface Guidelines',US
+5,'The product shall comply with corporate color scheme',US
+5,'The appearance of the product shall appear professional',US
+5,'The product shall be easy to use by Adjusters and Collision Estimators.  95% of Adjusters and Collision Estimators shall find the product easy to use.',US
+5,'The product shall increase productivity of Collision Estimators. 80% of the Collision Estimators shall agree their productivity has increase within 1 month of using the product.',US
+5,'Users shall feel satisfied using the product.  85% of all users will be satisfied with the product.',US
+5,'The product shall be easy to learn by Adjusters and Collision Estimators.  The product shall be learned with two days onsite training',US
+5,'The user shall easily locate instructions while using the product.  User help can be found within 90% of the system.',US
+5,'Only adjusters can request recycled parts audit reports. No users without an adjuster role shall request recycled parts audits.',SE
+5,'Only adjusters with a supervisor role can update preferred repair facility ratings. Users without the supervisor role cannot access the repair facility ratings.',SE
+5,'Only collision estimators shall search for recycled parts.  Users without the collision estimator role shall not have access to the search for recycled parts.',SE
+5,'Only valid data shall be entered into the system.  No invalid data shall be entered into the system.',SE
+5,'One insurance company shall not be able to view another insurance companys claim data.',SE
+5,'The product shall free of computer viruses.',SE
+5,'The system shall prevent malicious attacks including denial of service.',SE
+6,' The productï¿½s Look and Feel shall be able to incorporate aspects of the customerï¿½s organization such as logo  branding  and identity',US
+6,'The product shall have a conservative and professional appearance.',US
+6,'The product shall make the users want to use it. 80% of the users surveyed report they are regularly using the product after the first 2 weeks post-launch.',US
+6,'The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.',US
+6,'The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.',US
+6,'The product shall allow the user to select a chosen language from one of the target market countries.',US
+6,'The product shall allow for customization of start page and views preferences.',US
+6,' An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.',US
+6,'The product shall use a standard navigation menu familiar to most web users.',US
+6,'The product shall allow for intuitive searching of available conference rooms.',US
+6,'The product shall conform to the Americans with Disabilities Act.',US
+6,'A new user must be able to be added to the system within 10 minutes.  90% of new users are able to log into the system within 10 minutes.',US
+6,'Every registered user will have access to the productï¿½s support site via the Internet.  70% of registered users shall find a solution to their problem within 5 minutes of using the support site.',US
+6,' The product shall be translated into foreign languages other than the target market countriesï¿½ languages in future releases.  For each emerging target market  it shall take no more than 5 days to configure the product for that marketï¿½s language.',US
+6,'The product shall ensure that only company employees or external users with company-approved user IDs may have product access.  100% of all logons shall be by either company employees or external users with company-approved user IDs.',SE
+6,'Only managers are able to perform search queries for reservations by user.  100% of all search queries for reservations by user shall be from logons of only management logons.',SE
+6,'The product shall ensure that the databaseï¿½s data corresponds to the data entered by the user.  Each conference room reservation in the system will contain the same information as was entered by the user.',SE
+6,'The product shall prevent the input of malicious data.  The product and/or adjacent hardware/software systemsï¿½ data shall remain 100% uncorrupted each time malicious data is input into the product.',SE
+6,'The product shall have the ability to receive automatic software updates as new threats emerge.  100% of customers will be able to receive automatic software updates transmitted to the installed product.',SE
+6,'The product shall be able to display calendar dates and times according to the userï¿½s locale.  90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.',US
+7,'The System shall maintain consistent security.  Any changes in user passwords and/or permissions should take affect in all parts of the System.',SE
+7,'The System shall granularly control access rights to all major subsystems.  It should be possible to assign access rights to all subsystems independently.',SE
+8,'The website shall be attractive to all audiences.  The website shall appear to be fun and the colors should be bright and vibrant.',US
+8,' The website should have an African feel  but should not alienate non-Africans.  The website should use animation on pages which are describing the services  to grab the users attention and encourage them to sign up.',US
+8,' The website design should be modern  clean  and concise.',US
+8,'The product should be able to be used by 90% of novice users on the Internet.',US
+8,' Users should only have to navigate through a maximum of 4 pages  to create an account with the website.',US
+8,'Users should be able to access their streaming movies in under 2 clicks after logging into the website.',US
+8,'An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.',US
+8,'An anonymous survey will show that 95% of customers are comfortable using and purchasing pre-paid cards after a month of using the system.',US
+8,'The product shall retain the customerï¿½s buying preferences and information.',US
+8,'The product shall be easy for customers with novice skills on the  Internet to purchase and watch streaming movies.  Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.',US
+8,'The product shall use symbols and words that are naturally understandable by users familiar with websites',US
+8,'The website will use standard Internet conventions when interacting with the user.',US
+8,' All credit card information will be secured on the server  and only accessible by authorized Izogn administrators.  Information will be encrypted in the database.',SE
+8,'The website will provide a help section with answers and solutions to common problems.',US
+8,'Only registered customers can purchase streaming movies.',SE
+8,' A customer can only stream a movie if they purchased it  and are within the 2 day viewing period.',SE
+8,'Only authorized personnel can access customer records in the database.',SE
+8,'Only administrators can activate a pre-paid card.',SE
+8,'Only authorized personnel can access sales information.',SE
+8,'The website shall prevent its data from being corrupted when incorrect data is entered in.',SE
+8,' The website shall protect itself from intentional abuse  and notify the administrator at all occurrences.',SE
+8,'Data integrity scripts will be run on a weekly basis to verify the integrity of the database.',SE
+8,' The website shall make its user aware of its information practices before collection data from them via a Privacy Policy  accessible on all pages of the website.',SE
+8,'The system shall notify customers of changes to its information policy.',SE
+8,'The system shall reveal private information only in compliance with the organizationï¿½s information policy.',SE
+8,' All customer information will be stored on a secure database  accessible only to authorized personnel.',SE
+8,'All credit card information will be encrypted in the database.',SE
+8,'The streaming server will have anti-virus software to prevent infection of malicious viruses.',SE
+8,'The website should cater to all tribes in Nigeria.',US
+8,'The website shall not be offensive to religious or ethnic groups.',US
+8,' The website should appeal to all Africans  not only Nigerians.',US
+10,'The product shall simulate the look of ships at sea.',US
+10,'The product shall display the grids within a circle as a view from a periscope.',US
+10,'The product shall display each type of ship in a grid using an image of the specific type of ship.',US
+10,' When the offensive player takes a shot  the product shall simulate the sound of a ship at sea.',US
+10,' When a shot is marked as a miss  the product shall simulate the sound of a shot missing its target.',US
+10,' When a shot is marked as a hit  the product shall simulate the sound of a shot hitting its target.',US
+10,' When a ship is sunk  the product shall simulate the sound of a sinking ship.',US
+10,'The product shall be intuitive and self-explanatory.  Nine out ten users shall be able to successfully complete a game with no training.',US
+10,' The product shall be available to players who understand English  Spanish and French.  The product shall allow the user to select the language upon accessing the product.',US
+10,'The product shall provide players no access to information that might reveal the identity of another player',SE
+11,'The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.',US
+11,'The system shall be easy to learn by callers and supervisors. Callers and supervisors shall learn how to use the system within 10 minutes.',US
+11,'The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots.',SE
+11,'The product shall ensure that only supervisors can enter a callerï¿½s schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.',SE
+11,'The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.',SE
+11,' The interface shall have a simple look. In the interface and usability survey  90% of beta testers must report that the interface is adequately simple.',US
+11,' The interface shall be appealing to callers and supervisors. In the interface and usability survey  80% of beta testers must report that the interface is appealing.',US
+12,'The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.',US
+12,'The product shall comply with City of Chicago Application Development Guide Framework.Application Development Framework will provide structured Graphical User Interface.',US
+12,'The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.',US
+12,'The product shall provide Error Tracking Services.The product shall help the System Administrators and DBAs to resolve transaction errors 99% of the time.',US
+12,'The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators)',US
+12,' The product shall have security.The product shall provide authentication  and authorization.',SE
+12,'The product shall information Security. The product shall enable privacy by encryption WS-Security and Integrity Checking.',SE
+12,'The product shall have audit capabilities.The product shall store messages for a minimum of one year for audit and transaction tracking purposes.',SE
+13,'The system shall use IBM and CCR branding standards. The interface must have one IBM logo and one CCR logo.',US
+13,'The system shall be displayable on any work computer a CCR user may have. The system interface shall be formatted to display at 800 by 600 pixel resolution.',US
+13,'The system interface will use CCR nomenclature. The system must use the same nomenclature used in the existing WCS system and reports',US
+13,'The interface must summarize the data in a fashion thatï¿½s appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface',US
+13,'The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard',US
+13,'The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.',US
+13,'Rreports must be easy to generate. eports must be generated within one button click and exported within one button click (after selecting the report)',US
+13,'A user shall be able to use the system without instruction after a short amount of time. After one use a user should understand and remember 90% of the system usage and navigation.',US
+13,'All CCR users shall receive training before the WCS system is deployed. One training session will be held for 100% of CCR users before system deployment (based on a CCR user being available)',US
+13,'The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.',US
+13,'The WCS system shall have the ability to include data for regions outside the United States and be accessed by users outside of the United States if approved by CCR management.',SE
+13,'The system shall only be accessed by authorized Corporate Community Grants (CCR) employees. Users must be authenticated using their IBM intranet user name and password.',SE
+13,'The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a userï¿½s computer.',SE
+14,'Each team owner will need to use a username and password in order to be authenticated to reach the team ownerï¿½s page',SE
+14,'The Commissioner will be the only authorized user per league to adjust league settings.',SE
+14,'Each page shall contain a navigation menu which shows the index into which the current page is contained.',US
+14,'Each page shall contain a similar format with action items in one location and navigation buttons in a different location.',US
+14,'The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.',US
+14,"'	A new user shall be able to navigate through the league and team pages within 30 seconds of reaching the start-up page.'",US
+14,"' 	Users shall be able to reach the ï¿½addï¿½  ï¿½dropï¿½  and ï¿½trade playerï¿½ pages with one click from the team ownerï¿½s page.'",US
+14,"'	Users shall be able to view at least 25 NFL player statistics and points on each page.'",US
+14,'The application shall ask the user to confirm dropping a player or trading a player before performing the action.',US
+15,"' 	Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.'",SE
+15,"'	User access should be limited to the permissions granted to their role(s) Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles. Access to functionality within RFS system is dependent on the privileges/permission assigned to the role..'",SE
+15,"' 	The product must comply with the intranet page standards and requirements of ENET Securities. 95% of the product look & feel will be approved by the Architecture group  prior to implementation. The remaining 5% will be corrected and approved within one month of product release.'",US
+15,' The intranet pages should display appropriately in all resolutions  from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions  prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.',US
+15,The users should be able to easily use the system to successfully complete their budgets  within the stipulated time for completion. With a week of training prior to product implementation  98% of the users shall complete their budgets within the stipulated time.',US
+15,"Removal or non-installation of software and functionality that is not required by the Principal, nor for the intended functional purpose of the system; email, office applications, games, USB ports, Bluetooth and Wi- Fi communications, etc'",SE
+15,Protection of physical and logical access to diagnostic and configuration ports',SE
+15,Disabling all unused ports on switches and routers to assist in preventing unauthorized access to the ASD network infrastructure',SE
+15,Proper maintenance processes to maintain the system-hardened state during the system lifetime',SE
+15,The Vendor shall document data flows and storage points with identification of sensitive information',SE
+15,The Vendor shall document the segmentation architecture between the control system domain and other domains',SE
+15,"The Vendor shall document the data retention capability provided by the Vendors system including data pruning functions, retention timeouts, data purging, etc'",SE
+15,The Vendor shall have policies and procedures for security testing and approval and maintenance policies and procedures for third party software integrated in the Vendors system',SE
+15,The Vendor shall have policies and procedures for third party security architecture reviews including security risk assessments',SE
+15,The Vendor shall have policies and procedures to ensure that only  those ports and services required for  normal and emergency operations are enabled',SE
+15,The Principal shall have policies and procedures for declaring external interfaces to the Vendors system as trusted or untrusted',SE
+15,"For interfaces declared to be untrusted, the Vendors system shall incorporate compensating security mechanisms to protect the control system'",SE
+15,The Vendor shall document special mechanisms and procedures needed to minimize recognized security weaknesses inherent in communication protocols',SE
+15,The Vendors system shall support use of anti-virus software',SE
+15,Components for which the installation of anti-virus software is not technically possible shall be listed and other mitigating controls shall be documented and implemented to reduce the risk of infection',SE
+15,"The Vendor shall  provide  the Principal with documented instructions for the proper installation, configuration and update of anti-virus software'",SE
+15,The Vendor shall provide evidence that all equipment has been checked to be free of malicious code prior to shipment to the Principal',SE
+15,The Vendor shall provide documentation describing the software patching policy for its system',SE
+15,The Vendor shall review its patching policy at least annually to address new threats and vulnerabilities',SE
+15,"The Vendor shall include in their patching policy controls to ensure that patching does not reinstall software that has been removed for  hardening purposes, or change system configuration settings'",SE
+15,The Vendor shall qualify all relevant software patches and service packs for use on its system during its supported lifetime including security patches that are released by the manufacturer of the operating system and third party software used on their system',SE
+15,"If a security patch is considered not relevant by the Vendor for use on its system, the reason shall be provided to the Principal'",SE
+15,"If a security patch is not approved by the Vendor for use on its system, then the reason and remediation plan shall be provided to the Principal'",SE
+15,"The Vendor shall maintain and provide secure access to a list of software patches and service packs relevant to its system including the approval status of each; approved, not approved,  in test'",SE
+15,"For Microsoft software, the vendors online patch list shall be in a standarized downloadable format, preferably compatible with microsoft Windows Update Services or equivalent'",SE
+15,"The Vendor shall inform the Principal about approved, not approved and not relevant software patches within 30 days after release by the manufacturer of the software'",SE
+15,Software patch status notification shall also include a warning if the application of a patch requires or causes a re-start of the system',SE
+15,"Patches and service packs approved by the Vendor shall not be redistributed by the Vendor, but shall be made available to the Principal directly from the manufacturer of the software unless otherwise approved by the Principal'",SE
+15,The Vendor should provide tools to audit the current security patch status of the Vendors system and provide a list of missing security patches',SE
+15,"The Vendor shall describe the approved patching procedure and configuration instructions for its system, describing how to perform patching both manually and via a patch management server'",SE
+15,The Vendor shall describe a recommended roll-out procedure for software patching and upgrading all parts of its system',SE
+15,The Vendors system shall provide the capability to support default passwords used for system  accounts which can be changed by the Principal',SE
+15,The Vendors system shall provide the capability to remove or disable unused default system accounts',SE
+15,The Vendors system shall provide the capability to use passwords comprised of at least eight characters in length and consisting of a combination of at least three characters',SE
+15,The Vendors system shall provide the capability to set local and domain user account passwords on their host-based devices to automatically expire every days with a default of 180 and prevent reuse of the three previously used passwords',SE
+15,The Vendors system shall provide the capability for users to be prompted to change their passwords [user defined] days prior to expiration with a default of  30 days',SE
+15,The Vendors system shall log and report unsuccessful login attempts in a timely manner to an interface specified by the Principal',SE
+15,The Vendors system shall restrict the use of shared passwords except for shared passwords approved by the Principal',SE
+15,"The Vendors system shall provide the capability to set service, auto-login, and operator accounts so they never expire nor be disabled automatically'",SE
+15,The Vendors network devices shall provide the capability to enable role- based access features',SE
+15,The Vendors network devices shall provide the capability to encrypt passwords within the network device',SE
+15,The Vendors system shall provide the capability to enable the use of encryption for administration of network devices within the control system over Ethernet',SE
+15,"Where applicable, the Vendors system shall provide the capability to enforce multi-factor access control'",SE
+15,"Where required, the Vendors system shall provide the capability to enforce two-way authentication of all network traffic'",SE
+15,The Vendors system shall provide the capability to support unified account management to centralize security policies and to decentralize execution of the security policies',SE
+15,The Vendors system shall provide the capability to restrict creation or modification of an account to an authorized user',SE
+15,The Vendors system shall provide the capability to locally manage security accounts in accordance with a centralized security policy',SE
+15,"The Vendor shall establish methods, processes and procedures that generate logs of sufficient detail to create historical audit trails of individual user account access activity for a minimum of 90 days'",SE
+15,The Vendor shall describe the recommended backup strategy and architecture for its system',SE
+15,The Vendor shall recommend a procedure for verification of successful system back-up',SE
+15,The Vendors system shall provide the capability to generate and maintain an audit log of all backup and restore activities',SE
+15,The Vendors system should provide the capability for the Principals control and automation technicians to restore the system',SE
+15,"Commensurate with the Principals process and procedures, the Vendor shall describe procedures for control and management of removable backup media'",SE
+15,The Vendors system shall provide the capability to restore the system  back to a fully functioning system or to a simulation system from any point in the backup process',SE
+15,The Vendors system shall function normally whilst a backup is in progress',SE
+15,"The Vendors system shall provide the capability to monitor system security using at least one of the following methods: HIDS, Syslog, WMI or SNMP traps'",SE
+15,"Where applicable for open systems supporting a Management Information Base, the Vendor shall install and test a MIB for sharing system configuration information and for monitoring system security performance'",SE
+15,The Vendors system shall demonstrate a robust capability to protect against system scans during normal operation',SE
+15,The Vendors system shall provide the capability to collect historian data using an open standard communication protocol',SE
+15,the Vendor shall provide a method for collecting historian data in a secure fashion',SE
+15,The Vendors system shall provide the capability to securely interface to applicable data warehouses which are part of the Vendors system or those provided by the Principal',SE
+15,The Vendors system shall provide the capability to log all state changes',SE
+15,The Vendors system shall securely report events to an interface defined by the principal',SE
+15,"The Vendor shall notify the Principal in a timely manner of a significant change in Vendor, Subcontractor or Consultant personnel who have digital access to the control system'",SE
+15,The Vendors system shall log and report in a timely manner a security compromise detected in its system to an interface specified by the Principal',SE
+15,The Vendors system shall securely respond to events in such a manner as to minimize the impact on normal or emergency operations',SE
+15,"When changes to operating conditions come from remote or advisory set points, the Vendors system shall provide the capability to acknowledge Operator action to verify a new set point or modification of an existing set point. If not acknowledged, the last approved set point shall be used'",SE
+15,"When the new set point is outside the user-selected range, the Vendors system shall provide the capability to generate an alarm, and the new set point shall not be used unless specifically approved by the Operator'",SE
+15,"When operating conditions change due to automated operation, the Vendors system shall provide the capability to log the event and notify the operator in a timely manner'",SE
+15,"Where wireless devices are appropriate, the Vendors system shall provide the capability to use wireless devices that comply with approved international wireless standards'",SE
+15,Industrial wireless field devices should be based on ISA 100 or WirelessHART. The use of other techniques shall not be used unless aproved by the principal',SE
+15,Wireless devices and systems shall comply with approved international standards or with regulatory requirements governing licensing of frequency bands',SE
+15,The Vendors system should provide the capability for the control system to configure wireless field instruments in a similar manner used to configure to wired field instruments',SE
+15,The Vendors system should provide the capability to view the latest configuration of a wireless field device used for monitoring and control from the control system',SE
+15,The Vendors system shall provide the capability to equip each SIS with a key switch to disable the SIS configuration mode',SE
+15,The Vendors system shall implement a hardware key switch with the provision to remove the key from the switch when in the disable mode',SE
+15,An independent third party shall certify that it is not possible to change the configuration of the SIS when this key switch is in the disable mode',SE
+15,"The Vendor shall have periodic security risk assessments performed by a reputable third party on SIS communications between, both internal and external to the safety network'",SE
+15,"The Vendors system shall hard-wire, or logically separate connections between the SIS and safety-related communications from other control system networks'",SE
+15,The Vendors SIS shall not have a direct Ethernet connection to Layer 3',SE
+15,The Vendors SIS Engineering Work Station shall only be connected to Layer 3 with a firewall or router that includes an Access Control List',SE
+15,The Vendors system shall  not provide data connection between the DCS and SIS for  safety-critical communications',SE
+15,The Vendors SIS EWS shall only be connected to the SIS directly or via Layer 2 using a dedicated gateway',SE
+15,The Vendors SIS EWS shall be restricted to performing SIS functions',SE
+15,The Vendors system shall not allow remote access to the SIS EWS',SE
+15,"The Vendor shall provide detailed instructions for how to install, configure and operate the selected remote access software on the Vendors system'",SE
+15,The Vendor shall provide adequate information about proposed methods of data transfer between its  system  and other systems and networks to allow the Principal to assess the risk and approve the method of data transfer before it is implemented',SE
+15,The Vendors system shall provide the capability to update firmware in remote devices in a secure manner with the provision to restrict read/write privileges',SE
+15,The Vendors system shall provide the capability to protect selected data residing in any control system repository from unauthorized access or use',SE
+15,"The Vendors system shall  provide the capability to protect selected data in transit over any control system network or interface from unauthorized access  or use, and protect the integrity of the data'",SE
+15,The Vendors system shall provide the capability to use encryption keys that provide at least 128-bit encryption',SE
+15,The Vendors system shall provide the capability to use encryption or use VPN tunnels secured with IPSec or SSL for wireless bridges used  for point-to-point backbone connectivity',SE
+15,The Vendors system shall comply with FIPS 140-2 cryptographic module requirements',SE
+15,"When applicable, the Vendors system shall support use of ANSI X.509 digital certificates administered by the Principal'",SE
+15,"The Vendors system shall protect encryption keys and credential secrets such as passwords at  all times, whether at rest or in transit'",SE
+15,The Vendors system shall provide the capability to manage keying material from a central console',SE
+15,The Vendors system shall provide the capability to automate all aspects of key exchange process in a reliable and fault tolerant manner',SE
+15,The Vendors system shall provide the capability to manage at  least six active encryption keys',SE
+15,The Vendors system shall provide the capability to continue normal data processing during a period when a new definable key is being deployed',SE
+15,The Vendors system shall provide the capability to manage keying material for legacy devices in a reliable and fault tolerant manner',SE
+15,The Vendor shall conduct a control system security risk assessment at the beginning of the commissioning phase',SE
+15,The Vendor shall  describe potential security risks and recommended mitigation procedures to the commissioning team during security awareness training',SE
+15,Risk assessment is needed on a continuing basis to assess the achieved or current system security assurance level given the emerging threats and degradation in security capability of the installed system. Such an assessment should be used to continually revisit the pre-planned product improvements for the security system',SE
+15,The Vendor shall document and maintain an inventory register of all components supplied by the Vendor',SE
+15,The Vendor shall provide the Principal with documentation describing the as-built and installed equipment connections and configurations',SE
+15,"After the completion of commissioning, the Vendors system shall remove all temporary user accounts used during system testing and commissioning'",SE
+15,"After system testing and commissioning have been completed, the Vendors system shall generate an audit log showing all temporary accounts have been removed'",SE
+15,During system testing and commissioning and upon request by the Principal the Vendors system shall perform a network scan to discover hidden systems or vulnerabilities',SE
+15,During testing and commissioning the Vendor shall obtain approval from the Principal for the use of troubleshooting tools prior to being used on the ASD infrastructure',SE
+15,During testing and commissioning the Vendor shall inform the Principal of any adverse effects that hardware or software troubleshooting tools may have on ASD network performance',SE
+15,During testing and commissioning the Vendor shall perform an analysis of the network scan results to confirm that the configurations of communications ports are in compliance with the specifications',SE
+15,Prior to system testing and commissioning the Vendors system shall verify that the Principals Management of Change and Permit To Work processes has been followed for changes involving devices or connections between devices in the ASD',SE
+15,During system testing and commissioning the Vendor shall  certify that its sanitization process has removed all sensitive information from any part that will be replaced or that the part and the sensitive information have  been destroyed',SE
+15,"During system testing and commissioning the Vendors system shall demonstrate timely generation, logging and reporting of a simulated security compromise approved by the Principal'",SE
+15,"During system testing and commissioning, the Vendors system shall demonstrate security mechanisms have been installed in accordance with approved procedures'",SE
+15,During system testing and commissioning the Vendors system shall verify the following conditions have been successfully completed',SE
+15,During system testing and commissioning the Vendors system shall verify thatthe point of connection to a control system network includes a stateful firewall with documented and maintained firewall rules',SE
+15,During system testing and commissioning the Vendors system should verify that the point of connection within the control system network between wired and wireless networks is firewalled with documented and maintained firewall rules',SE
+15,During system testing and commissioning the Vendors system should verify that the point of connection within the control system network to the SIS is firewalled with documented and maintained firewall rules',SE
+15,During system testing and commissioning the Vendors system should verify that the point of connection within the control system network to a data warehouse is firewalled with documented and maintained firewall ruled',SE
+15,The Vendor shall have a process in place for qualifying virus definition files and provide documentation describing how approval of virus definition files shall be communicated to the Principal',SE
+15,"Virus definition files shall be released-for-installation by the Vendor as soon as possible, with a maximum of 30 days after initial release'",SE
+15,Prior to system testing and commissioning the Vendor shall update the document describing the configuration of the virus detection software installed on each ASD component',SE
+15,"Where the installation of anti-virus software is not technically possible, Prior to testing and commissioning the Vendor shall update the document describing all computers where anti-virus software cannot be installed'",SE
+15,Prior to testing and commissioning the vendor shall update the document describing all the use of all mitigating features and functions used to reduce the risk of infection',SE
+15,The Vendor shall document a procedure for its staff stating that portable media',SE
+15,The Vendors portable media procedure shall include instructions for ensuring that the portable media is free of malicious code',SE
+15,"Prior to system testing and commissioning, the Vendor shall provide documentation to ensure that the use of correctly installed, configured and up-to- date anti-virus software has been verified'",SE
+15,Prior system testing and commissioning the Vendor shall document that the installation of qualified virus definition files have been conducted and the files are current to within 30 days',SE
+15,The Vendors system shall demonstrate during system acceptance testing that malicious code can be detected and correctly handled by the anti-virus software',SE
+15,"For systems maintained by the Vendor, the Vendor shall keep the security patch levels of all ASD systems current to within 3 months of the security patch being available and qualified by the respective system Vendor'",SE
+15,"If the installation of patches requires an outage that can impact operations or impacts performance, the Vendor shall develop and document a mitigation plan subject to approval by the Principal'",SE
+15,Vendor approved patches shall be approved by the Principal before they are installed on the Vendors system',SE
+15,During system testing and commissioning the Vendors system shall demonstrate that invalid login attempts are logged and reported in a timely manner to an interface specified by the Principal',SE
+15,During system testing and commissioning the Vendors system shall demonstrate the capability to create unique user names and passwords',SE
+15,"Prior to system testing and commissioning the Principal shall verify that individual passwords have not been divulged to other persons and if so, have been changed'",SE
+15,Prior to system testing and commissioning the Vendor will verify that user names and passwords approved by the Principal to be shared by a Vendors service group are correctly logged and maintained',SE
+15,"During system testing and commissioning, the Vendors system shall demonstrate the capability to create and maintain system accounts '",SE
+15,During testing and conmissioning the Vendors system shall demonstrate the capability to change default passwords in accordance predefined timeout requirements',SE
+15,During system testing and commissioning the Vendors system shall demonstrate the capability to remove or disable unused system default accounts',SE
+15,"During testing  and  commissioning, the Vendors system shall  demonstrate and verify that all  passwords are comprised of at least eight characters in length and consist of a combination of at least three of the following four character sets lowercase, uppercase, numeric digit, and special character'",SE
+15,During system testing and commissioning the Vendors system shall demonstrate that users are prompted to change their passwords days prior to expiration with a default of 30 days',SE
+15,"During system testing and commissioning the Vendors system shall demonstrate that service, auto-login and operator accounts are configured so that they never expire nor become disabled automatically'",SE
+15,"During system testing and commissioning, the Vendors system shall demonstrate that encryption is used during administration of network devices within the ASD over Ethernet'",SE
+15,During system testing and commissioning the Vendors system shall demonstrate that network devices have passwords encrypted within the device',SE
+15,During system testing and commissioning the Vendors system shall demonstrate that network devices are implemented with role-based access',SE
+15,During system testing and commissioning the Vendors system shall demonstrate and verify that workstations located in areas that are normally unattended have the required authentication and have an active automatic locking or disconnection mechanism',SE
+15,During system testing and commissioning the Vendors system shall perform a back-up and verify that the Vendors system has regularly backed-up at scheduled intervals which fulfil the data restore and disaster recovery objectives for the system',SE
+15,"During system testing and commissioning the Vendors system shall demonstrate that it is possible to create a complete back-up of their system, and that it is possible to perform disaster recovery by restoring a fully functioning system from this back-up'",SE
+15,"Prior to system testing and commissioning the system design Vendor shall provide the Principal with logical and physical infrastructure architecture drawings in AutoCAD or Microsoft Visio drawing formats, which verify that the Vendors systems and components are compliant with the infrastructure architectural requirements described in this document'",SE
+15,"During system testing and commissioning, the Vendors system will verify that the Control System Network and Distributed Control System internal bus are physically separated in a secure fashion'",SE
+15,During system testing and commissioning the Vendors system shall perform and verify all time- synchronization of ASD equipment from a secure and accurate source',SE
+15,"During system testing and commissioning the Vendors system shall demonstrate that unique, location specific SSIDs are used and verify that all SSIDs are descriptive acronyms which are not obviously associated with a Principals location by the general public'",SE
+15,During system testing and commissioning the Vendors system shall verify that the SSID is only sent using a broadcast or multicast message if services require its visibility',SE
+15,During system testing and commissioning the Vendors system shall verify that  wireless devices  connected to a TCP/IP port use static IP addresses and Dynamic Host Configuration Protocol are disabled',SE
+15,"During system testing and commissioning the Vendors system shall, where applicable, verify that maintenance and engineering of wireless devices connected to Layer 1 or Layer 2 are routed through the control system management workstation'",SE
+15,During system testing and commissioning the Vendors system shall cerify that remote maintenance and remote engineering  of wireless devices connected to layer 3 is only possible via wired connections through the ASD firewall.',SE
+15,During system testing and commissioning and if applicable the Vendors system shall verify that wireless devices are not allowed as an integral part of safeguarding functions',SE
+15,"During system testing and commissioning the Vendor shall verify that due to the response time of wireless devices, their use as part of a control loop is approved by the Principal'",SE
+15,"During system testing and commissioning the Vendors system shall verify that secure usernames and passwords are used on all wireless devices, and that manufacturers default usernames and passwords are changed to locally specified ones when technically feasible'",SE
+15,"During system testing and commissioning, the Vendors system shall verify that unused ports provided on wireless devices, such as a RS232 interface for configuration,  should be made physically secure or disabled where possible'",SE
+15,"During system testing and commissioning the Vendors system shall verify that if a worker uses a wireless handheld device as a DCS HMI in the field, then all wireless handheld device connectivity to the office domain shall be routed through the CSAD'",SE
+15,Prior to system testing and commissioning the system Vendor shall verify that its system architecture documentation describing wireless systems is up to date in its description of the following',SE
+15,"During system testing and commissioning the system Vendor shall verify that its system plan for the use of frequencies in wireless infrastructures, addressing non-interference and co- existence is up-to-date and approved by the Principal'",SE
+15,"During system testing and commissioning the Vendors system shall verify that if remote Vendor support is to be provided via Internet, then the Principals Third Party Access connection using encrypted transmission is used to connect to the Principals Global Infrastructure network from the Internet'",SE
+15,During system testing and commissioning the Vendors system shall verify that modem access to systems in the ASD is used subject to the following conditions',SE
+15,Prior to system testing and commissioning the Vendor shall verify that all system-to-system connections and user-to-system connections are approved by the Principal in accordance with the required review time',SE
+15,During system testing and commissioning the Vendors system shall verify that access to and use of selected data in control system repositories is adequately protected',SE
+15,During system testing and commissioning the Vendors system shall verify that access to and the integrity of selected data in transit within the control system network is adequately protected',SE
+15,During system testing and commissioning the Vendors system shall verify that access to and the integrity of selected data in transit between the control system network and external interfaces to the control system is adequately protected',SE
+15,During system testing and commissioning the Vendors system shall verify that ACLs and authentication methods are implemented to secure the wireless network',SE
+15,"During system testing and commissioning the Vendors system shall verify that for wireless connections, the highest feasible level of WPA, WPA2 or AES security and encryption is used'",SE
+15,During system testing and commissioning the Vendors system shall verify that encryption or a secure tunnel between wireless devices are used where possible',SE
+15,"During system testing and commissioning, and when encryption is required, the Vendors system shall demonstrate that encryption keys and pre- shared keys input to devices are managed to ensure they are protected and accessible with the appropriate permissions'",SE
+15,"During testing and commissioning, the Vendors system shall demonstrate automated fault tolerant key material management from a central console'",SE
+15,"During testing and commissioning the Vendors system shall, when applicable, verify that ANSI X.509 digital certificates administered by the Principal are securely protected'",SE
+15,"Prior to scheduled maintenance testing, the Vendor shall conduct a control system security risk assessment of all Vendor system changes that will be verified in the next maintenance cycle'",SE
+15,"Prior to scheduled maintenance testing, the Vendor shall update the inventory register of all components supplied by the Vendor'",SE
+15,During scheduled maintenance the Vendors system shall perform a network scan at to discover hidden systems or vulnerabilities which may have been introduced since the last scan cycle',SE
+15,After scheduled maintenance testing the Vendor shall perform an analysis of the latest scan results to confirm that the configurations of communications ports are in compliance with the specifications',SE
+15,"Prior to scheduled maintenance, the Vendor shall inform the Principal of any adverse effects that existing or new hardware or software troubleshooting tools may have on ASD network performance'",SE
+15,Prior to scheduled maintenance testing the Principal shall approve the use of troubleshooting tools prior to being used on the ASD infrastructure',SE
+15,Prior to scheduled maintenance testing the Vendor shall verify that the Principals Management of Change and Permit To Work processes has been followed for changes involving devices or connections between devices in the ASD',SE
+15,"Prior to scheduled maintenance testing, the Vendors system shall demostrate timely generation, logging and reporting of a simulated security compromise approved by the principal'",SE
+15,Prior to scheduled maintenance testing the Vendor shall verify that changes to or new security mechanisms have been installed in accordance with approved procedures',SE
+15,During scheduled maintenance testing the Vendors system shall verify that the point of connection to a control system network includes a stateful firewall with up-to-date documented and maintained firewall rules',SE
+15,During scheduled maintenance testing the Vendors system should verify that the point of connection within the control system  network between wired and wireless networks is firewalled with documented and maintained  firewall rules',SE
+15,During scheduled maintenance testing the Vendors system should verify that the point of connection within the control system network to the SIS is firewalled with documented and maintained firewall rules',SE
+15,During scheduled maintenance testing the Vendors system should verify that the point of connection within the control system network to a data warehouse is firewalled with documented and maintained firewall rules',SE
+15,"Prior to scheduled maintenance, the Vendor shall update the document describing the configuration of the virus detection software installed on each ASD component'",SE
+15,Prior to schedule maintenance the Vendor shall update documents describing changes to a procedure for its staff stating that portable media used by the Vendor for commissioning and maintenance of equipment or devices in the ASD are used for this purpose only',SE
+15,"Prior to scheduled maintenance, the Principal shall document changes to the installation of virus definition files have been installed and verified within 30 days after being qualified by the system Vendor'",SE
+15,"Prior to scheduled maintenance, for systems maintained by the Vendor, the Vendor shall update the security patch levels of all ASD systems current to within 3 months of the security patch being available and qualified by the respective system Vendor'",SE
+15,"Prior to scheduled maintenance, the Principal shall reconfirm that all users other than operators and service groups shall have unique individual usernames and passwords in cases where such are generated by the system'",SE
+15,During scheduled maintenance testing the Vendors system shall demonstrate that invalid login attempts are logged and reported in a timely manner to an interface specified by the Principal',SE
+15,"During scheduled maintenance testing, the Vendor shall re-verify that controls are in place to ensure system passwords are comprised of at  least eight characters in length and consist of a combination of at least three of the following four character sets lowercase, uppercase, numeric digit, and special character'",SE
+15,During scheduled maintenance testing the Vendors system shall re- verify that local and domain user account passwords have been configured to automatically expire every 180 days or otherwise as request by the Principal',SE
+15,"Prior to scheduled maintenance, the Vendor shall re-verify that users are prompted to change their passwords days prior to expiration with a default of 30 days'",SE
+15,"During scheduled maintenance, the Vendor shall re-verify that  controls are in place to prevent system users from reuse of their last three passwords'",SE
+15,"Prior to scheduled maintenance the Vendors system shall re-verify that service, auto-login and operator accounts are configured so that they never expire nor become disabled automatically'",SE
+15,During scheduled maintenance the Vendors system shall re-verify that network devices retain approved role- based access configurations including encrypted passwords within the device',SE
+15,During scheduled maintenance testing the Vendors system shall demonstrate and re-verify that workstations located in areas that are normally unattended have the required authentication and have an active automatic locking or disconnection mechanism.',SE
+15,During scheduled maintenance testing the Vendors system shall perform a back-up and verify that the Vendors system has regularly backed-up at scheduled intervals which fulfil the data restore and disaster recovery objectives for the system',SE
+15,During scheduled maintenance testing the Vendors system shall perform a back-up and verify that a back-up has been completed prior to an engineering change being made to the hardware or software or installing an operating system patch or upgrade',SE
+15,"During scheduled maintenance testing the Vendors  system  shall perform a back-up and verify that before back-up occurred before a change is made for which automatic roll-back is impossible, or after modifications to the system resulting from scheduling changes, or authorization and authentication changes, or after process trip or alarm level changes or application changes'",SE
+15,During scheduled maintenance testing the Vendors system shall verify that a complete back-up the system and restoration is functioning properly from this back-up',SE
+15,Prior to scheduled maintenance testing the Vendor shall re-verify that logical and physical infrastructure documents have been updated to include any changes and are compliant with the infrastructure architectural requirements described in this document',SE
+15,During scheduled maintenance testing the Vendors system shall verify that the physical network separation requirement remains properly implemented',SE
+15,"During scheduled maintenanc testing the Vendors system shall re-verify that unique, location specific SSIDS are used'",SE
+15,"During scheduled maintenance testing the Vendors system shall re-verify, where applicable, that maintenance and engineering of wireless devices connected to Layer 1 or Layer 2 are routed through the control system management workstation'",SE
+15,During scheduled maintenance testing the Vendors system shall verify that remote maintenance and remote engineering of wireless devices connected to Layer 3 is only be possible via wired connections through the ASD firewall',SE
+15,During scheduled maintenance testing the Vendors system shall re- verify that wireless devices are not allowed as an integral part of safeguarding functions and that all sensors and final elements are directly wired to the SIS',SE
+15,"During scheduled maintenance testing the Vendors system shall re- verify that due to the response time of wireless devices, their use as part of a control loop is approved by the Principal'",SE
+15,"During scheduled maintenance testing the Vendors system shall re- verify that secure usernames and passwords are used on all wireless devices, and that manufacturers default usernames and passwords are changed to locally specified ones when technically feasible'",SE
+15,"During scheduled maintenance testing the Vendors system shall re- verify that if a worker uses a wireless handheld device as a DCS HMI in the field, then all wireless handheld device connectivity to the office domain shall be routed through the CSAD'",SE
+15,Prior to scheduled maintenance the system Vendor shall re-verify that its system architecture documentation describing wireless systems is up to date',SE
+15,"Prior to scheduled maintenance, the system Vendor shall re-verify that its system plan for the use of frequencies in wireless infrastructures, addressing non-
+interference and co-existence are up to date and approved by the principal'",SE
+15,"During scheduled maintenance testing the Vendors system shall re- verify that if remote Vendor support is to be provided via Internet, then the Principals Third-Party Access connection using encrypted transmission is used to connect to the Principals Global Infrastructure network from the Internet'",SE
+15,Prior to scheduled maintenance the Vendor shall re-verify that all system-to- system connections and user-to-system connections are approved by the Principal in accordance with the required review time',SE
+15,During scheduled maintenance testing the Vendors system shall re- verify that access to and use of selected data in control system repositories is adequately protected',SE
+15,During scheduled maintenance testing the Vendors system shall re- verify that access to and the integrity of selected data in transit within the control system network is adequately protected',SE
+15,During scheduled maintenance testing the Vendors system shall verify that access to and the integrity of selected data in transit between the control system network and external interfaces to the control system is adequately protected',SE
+15,During scheduled maintenance testing the Vendors system shall re- verify that encryption or a secure tunnel between wireless devices are used where possible',SE
+15,"During scheduled maintenance testing the Vendors system shall re- verify that for wireless connections, the highest feasible level of WPA, WPA2 or AES security and encryption is used'",SE
+15,"During scheduled maintenance, the Vendors system shall re-verify that ACLs and authentication methods are implemented to secure the wireless network'",SE
+15,During scheduled maintenance testing the Vendors system shall re- verify that encryption keys and pre- shared keys input to devices are managed to ensure they are protected and accessible with the appropriate permissions',SE
+15,During scheduled maintenance testing the Vendors system shall re- verify automated fault tolerant key material management process from a central console is performed in accordance with the Principals security operating policies and practices',SE
+15,"During scheduled maintenance testing the Vendors system shall, when applicable, re-verify that ANSI X.509 digital certificates administered by the Principal are securely protected'",SE
+15,Successful authentication is a prerequisite for the processing of any on-line or offline CEPS transaction',SE
+15,"On-line authentication must take place between the card issuer and the CEP card for load, unload, and currency exchange transactions'",SE
+15,The card issuer and the CEP card share a secret key to generate and verify MACs',SE
+15,"Specification of keys and signatures used for CEPS on-line authentication is left to the issuer, however MACs passed over shared networks must be no more than 8 bytes long, binary format'",SE
+15,Off-line authentication must take place between a PSAM in the POS device and the CEP card for purchase and cancel last purchase transactions',SE
+15,"The card and the PSAM must use a public key algorithm for mutual authentication and session key exchange, as no permanent shared secret key may exist between the CEP card and the PSAM'",SE
+15,"To load value into a slot of the CEP card securely, the load device establishes a connection between the issuer and the CEP card'",SE
+15,"The card should use a unique diversified secret key, personalized into the card, to generate and authenticate transaction signatures'",SE
+15,"If this is not a cash load, the funds issuer needs to verify that the funds are requested by the legitimate account owner, which is normally done by the presentation of an enciphered PIN",SE
+15,"The card issuer needs to ensure that the load acquirer is guaranteeing payment for the electronic value, and that the card is authentic",SE
+15,"The load acquirer needs to ensure that the issuer is the true owner of the card, and, in the case of an apparent failure of the load, the load acquirer needs the card presented to authenticate the failure",SE
+15,The load device sends S1 in an authorization request to the issuer,SE
+15,The load device also provides for verification of the identity of the cardholder (with either on-line or off-line PIN verification) and forwards verification data in the authorization request,SE
+15,The issuer validates S1 to authenticate the card and the data to be used in the transaction,SE
+15,The issuer sends S2 to the load acquirer in the authorization response message,SE
+15,Unloads are permitted only to an account controlled by the card issuer and are performed only at a load device under the control of the card issuer,SE
+15,"The cardholder must have an account relationship with the card issuer, and funds removed from the card are credited to the cardholder account only after the card issuer authenticates the card",SE
+15,"The issuer needs only to authenticate the card, and the card needs only to authenticate the issuer and that the data is the same as used by the issuer",SE
+15,"The card generates S1, using data from the card and load device, and sends S1 to the card issuer to authenticate the card and the data that is to be used in the transaction",SE
+15,"The card issuer generates S2, which is sent to the card to allow the card to validate the card issuers authenticity and to ensure that the data used by the card in the transaction is the same as the card issuer intended",SE
+15,"During a purchase transaction, the CEP card must ensure that it is dealing with an authentic POS device, and it must generate a signature to allow the card issuer to verify the integrity of the transaction",SE
+15,"For multiple step transactions, the CEP card can, at the card issuers option, reauthenticate the PSAM at each step (mutual authentication), or it can rely on the authentication that was performed during the first step (dual authentication)",SE
+15,The PSAM may authenticate the CEP card during each step,SE
+15,"In the case of a reversal, the CEP card must re-authenticate the PSAM",SE
+15,Intermediate card validation by the POS device is optional for both the CEP card and the PSAM,SE
+15,"During a Cancel Last Purchase transaction, the CEP card is authenticated by the PSAM in the POS device",SE
+15,"The PSAM authenticates that the purchase transaction being canceled was performed by the PSAM, and that the transaction being canceled is part of the active batch",SE
+15,The card issuer and the merchant acquirer also authenticate the transaction when they receive it,SE
+15,Transmissions between host systems should be protected by MACs based on unique keys that are shared by the nodes involved,SE
+15,"The transaction signatures ensure end to end integrity of transmitted data for load, unload, and currency exchange transactions",SE
+15,Every complete POS transaction is given a MAC by the PSAM and kept in the POS device memory until collected by the merchant acquirer,SE
+15,"The count and amount of the transactions in the batch must be protected by the S4 MAC,  This information is not part of the card issuer verification process",SE
+15,Scheme providers must assign unique identifying numbers to merchant acquirers who provide PSAMs,SE
+15,These merchant acquirers must then assign unique identifiers to PSAMs,SE
+15,"As a result, each PSAM must have a unique ID composed of the scheme identifier, a merchant acquirer identifier, and the PSAM identifier",SE
+15,"Each PSAM must maintain a transaction count, The unique PSAM ID and the transaction count are used during a conversation with a CEP card. The transaction count must not be reset during the life of the PSAM",SE
+15,"Contain the CA public RSA key, the PSAM private RSA key and optionally the certificates that the POS device uses to perform mutual authentication with the CEP card",SE
+15,"Perform the calculation required to generate a signature using the PSAM private RSA key, to allow the CEP card to validate the PSAM",SE
+15,Contain one or more MAC keys used by the merchant acquirer to ensure the integrity of the data received from the POS device,SE
+15,Perform the verification of signatures and certificates during a purchase and cancel last purchase transaction,SE
+15,"Ensure that CA public keys, aggregation parameters, blocking lists and issuer certificate revocation lists from the scheme providers are sent to the POS devices",SE
+15,"Share one or more MAC keys with connecting processors, create a MAC on each transmission sent to another processor, and verify the MAC on each transmission received from another processor",SE
+15,"The scheme provider must ensure that the entire process between merchants, merchant acquirers, card issuers, and processors is auditable and reconcilable",SE
+15,"If errors in the card issuer MAC are discovered by the card issuer during its processing of the transactions, a dispute mechanism, established by the scheme provider, may be used to have money refunded",SE
+15,"If a scheme provider establishes a central error repository, all transactions for the scheme with MAC errors must be sent to that central error repository whether or not they are submitted to the dispute process",SE
+15,"A purchase transaction may be reversed, prior to the removal of the CEP card from the POS device, by sending a purchase reversal command to the CEP card, The CEP card must authenticate the PSAM using certificates previously exchanged",SE
+15,The amount to be reversed is the amount of the last step of the transaction. The reversal command sent to the CEP card contains a S2 MAC computed by the PSAM,SE
+15,"The PSAM in the POS device generates a merchant acquirer S5 MAC for the transaction, computes a new S4 MAC on the updated batch total count and amount, and logs the transaction",SE
+15,"The transaction and MACs are kept in a data store associated with the POS device until the merchant acquirer collects them. The logged data must include the total amount of the purchase, the purchase amount that was reversed, and an indication that the transaction was reversed",SE
+15,"The CEP card authenticates the PSAM using the certificates previously received and the S2, The CEP card increments the value of the purse and logs the transaction",SE
+15,"POS devices are not required to support the cancel last purchase command. If this command is supported, the POS device must have security to prevent unauthorized or fraudulent use of the transaction",SE
+15,"The CEP card verifies that the PSAM is the PSAM used in the original transaction, computes a S1 MAC using the same DES session key that was used for the purchase transaction being cancelled, and responds to the POS device with the S1 and the identification of the last transaction. If the purchase transaction to be canceled has been canceled or is not part of the active batch, the command is not allowed",SE
+15,The PSAM either retrieves or re-derives the DES session key used for the purchase transaction being cancelled. The POS device authenticates the CEP card using this key and the S1 MAC,SE
+15,The PSAM in the POS device generates a merchant acquirer S5 MAC for the transaction and a new S4 MAC for the batch total count and amount and logs the transaction. The amount of the canceled last purchase transaction is subtracted from the header amount. The transaction is kept in a data store associated with the POS device until the merchant acquirer collects it,SE
+15,"A credit command, which contains the S2 MAC computed by the PSAM using the session key, is sent to the CEP card",SE
+15,The CEP card authenticates the terminal using the S2 MAC and the session key from the purchase transaction being cancelled. The CEP card increments the value of the purse and logs the transaction. The CEP card verifies that the cancellation amount is equal to the amount of the last step of the purchase transaction,SE
+15,A transaction collection process must exist. Data being transmitted from the POS devices must be transmitted in a manner that ensures integrity of the data,SE
+15,The PSAM must create a MAC on the updated aggregation record. Aggregation records by card issuer must be stored in the PSAM. They may also be stored in the POS device as well,SE
+15,"Each POS transaction completed at the POS device is given a S5 MAC by the PSAM, which is used by the merchant acquirer to validate that the transactions were made at a POS device with a valid PSAM. The batch total count and amount must be protected by the S4 MAC, which must also be validated by the merchant acquirer",SE
+15,"The merchant acquirer validates the PSAM MACs prior to accepting the POS transactions for payment. In addition, selected data elements are validated to ensure correct processing by the POS device and its PSAM",SE
+15,"Each purchase transaction is signed by the CEP card with a S6 MAC, which is used by the card issuer to validate that the transaction was made with a legitimate, not counterfeit, CEP card. The card issuer validates the CEP card MAC",SE
+15,"Payment decisions are based on signature validations, scheme provider rules, and merchant and merchant acquirer agreements",SE
+15,"Errors may be introduced by a malfunctioning PSAM or POS device software, by key management problems, or through the transmission process, as well as through fraudulent activities of another entity. When a batch or POS transaction fails validation, the merchant acquirer or card issuer must follow exception procedures that affect payment to the merchants and payment from the card issuer. The batch must be analyzed to determine clearable transactions out of a corrupted batch",SE
+15,Purchase transactions that have an invalid MAC are forwarded to the scheme provider for analysis if the scheme provider has established a central error repository,SE
+15,"Pay on detail is the default payment arrangement for merchant acquirers to provide payment to their merchants. In this arrangement, the merchant acquirer relies on the POS transaction S5 MAC to determine acceptance. Merchants are paid only for valid POS transactions",SE
+15,All load transactions are on-line transactions. Authorization of funds for load transactions must require a form of cardholder verification. The load device must support on-line encrypted PIN or off-line PIN verification,SE
+15,Off-line PIN verification must include both encrypted and unencrypted PIN,SE
+15,The card verification method indicator (CVMI) in the CEP card must specify support of online PIN verification and at least one method of off-line PIN verification (encrypted or unencrypted),SE
+15,"Where it is necessary for a CEPS system component to distinguish between on-line and off-line cardholder PIN verification, a flag must be set in the transaction",SE
+15,"Since these transactions are on-line to the issuer, the issuer has the opportunity to lock the card or the application. These transactions are not available to a card that has already been locked",SE
+15,"For unload transactions, the load acquirer and card issuer must be the same financial institution. Load devices or load acquirers must be able to identify their own institution CEP cards",SE
+15,Only one version of the CA public key is required in the card. This requires that the PSAMs with which the CEP card exchanges cryptograms must be capable of generating and validating cryptograms using the relevant keys from all current cards,SE
+15,"Two-way, or mutual, authentication, where the card authenticates the terminal and the terminal authenticates the card for each transaction, must be performed for off-line transactions",SE
+15,"For increased security and convenience, asymmetric cryptography must be used as the authentication security for off-line transactions",SE
+15,"The card must authenticate the terminal at the point of sale, ensuring that it is genuine and valid, and use a two-way authentication process",SE
+15,"The terminal must authenticate the card and the transaction at the point of sale, ensuring that they are genuine and valid",SE
+15,The terminal must participate in a two-way authentication process with the card,SE
+15,"For cancel last purchase transactions, the terminal must validate the card and sign the cancellation",SE
+15,The terminal must secure transactions by retaining the card symmetric MACing key signature as part of the transaction,SE
+15,The terminal must generate a symmetric MACing key signature and send it to the merchant acquirer,SE
+15,"Incremental purchase transactions must use two-way authentication for the initial session authentication, and at least one-way, with the terminal authenticating the card, for the remaining increments or some of the remaining increments",SE
+15,Load and unload functions must be authenticated using end-to-end security between the card and the card issuer,SE
+15,The issuer host must authenticate the card upon the load/unload request,SE
+15,The card must authenticate the issuer host upon the response to the request,SE
+15,A proof must be sent to the load acquirer that a load or unload occurred to avoid repudiation,SE
+15,"The management of keys must be accomplished in a secure, certified environment",SE
+15,"There may be multiple certification authorities that manage keys for the system, including the possibility of one overall highest level certification authority (perhaps on an international level), and domestic certification authorities for each country or region",SE
+15,"The system must protect the integrity of key transaction data including transaction identification, currency code and amount. If tampering is suspected, the system must cause the transaction to fail",SE
+15,"Funds issuers must accept funds authorization requests, regardless of the load currency type, as permitted",SE
+15,Authorizations for load transactions require a form of cardholder authentication for funds requests,SE
+15,The load device must support on-line PIN encryption or off-line PIN verification,SE
+15,The load device which supports only off-line PIN verification must support both the off-line PIN encryption method and the off-line PIN plain text verification method as defined in EMV,SE
+15,Unload transactions do not require cardholder authentication.,SE
+15,The product shall be conservative.,US
+15,The product must be developed with the J2SE/J2EE programming language libraries',US
+15,The System shall be able to automatically backup business data and restore them on demand.',US
+15,The System shall not require additional third party licenses resulting in royalty fees.',US
+15,All aspects of the website shall be accessed by a web browser over the Internet.',US
+15,The website should use Flash to provide animation on the home page.',US
+15,The lead washing process will operate within the established physical web service structure.',US
+15, The washing process must use a non binding  neutral data format  such as xml  when receiving and processing lead data.',US
+15,A primary database will be used to store cached data for active users.',US
+15,A secondary database will be used to store historical statistics and data.',US
+15,98% of the user workstations shall meet the minimum hardware requirements prior to implementation. Minimum Hard Disk Space:  400MB.',US
+15,98% of the user workstations shall meet the minimum software requirements prior to implementation: Microsoft Internet Explorer 5.0. Microsoft .NET Framework 1.1. Microsoft Internet Explorer Web Controls',US
+15, The product shall allow the user to view previously downloaded search results  CMA reports  and appointments.',US
+15,The product shall be intriguing,US
+15,The product shall appear authoritative,US
+15,The product shall be attractive to an older audience,US
+15,The product shall appear simple to use,US
+15,The product shall appear state of the art,US
+15,The product shall have an expensive appearance,US
+15,The product shall comply with the [Aqua/Vista/Motif/etc.] guidelines,US
+15,The product shall conform to the established look and feel of the organization's products,US
+15,The appropriate user must be able to determine a current battery strength upon presentation,US
+15,The appropriate user must be able to recognize when the battery needs to be charged when presented with a battery depleted condition,US
+15,The appropriate user must be able to charge the battery from a depleted state,US
+15,The appropriate user must be able to locate and upload the app on a smart phone,US
+15,The appropriate user must be able to customize the app to indicate the presence or absence of a blood pressure gauge,US
+15,The appropriate user must be able to verify systolic and diastolic pressure times as prescribed during device set up,US
+15,The appropriate user must be able to enter corrected blood pressure values as prompted,US
+15, The display shall have two regions:  left 2/3 of the display is graphical  right 1/3 of the display is a data table',US
+15,The system shall offer a display of all the Events in the exercise.',US
+15,The system shall display the local and exercise time in separate clocks',US
+15,The system shall display clear property images in the search results',US
+15,The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Membersï¿½ planning purposes.',US
+15, The system shall be able to display a printable summary for individual cohorts  which will include the students enlisted  the Program of study  sequence of classes  cohort progress through the program  and timeline of completion.',US
+15, The system shall be able to display a printable summary for individual clinical sites  which will include information on labs being held at that site for the given quarter (Clinical site  general information on labs held at that location  dates and times of all labs held there).',US
+15, The system shall be able to display a printable summary for individual clinical labs  which will include (but not be limited to) class name  class number  lab section  listing of students enrolled  instructor  day(s)  time  and location.',US
+15, The system shall be able to display a printable summary for individual nursing students  which will include (but not be limited to) student name  student ID  admission date  classes  credits  GPA  and the cohort that the student is enrolled in.',US
+15,The system shall be able to display a printable summary of the system log.',US
+15,The audit report shall be displayed to the user when he clicks that option.',US
+15,The current repair facility ratings shall be displayed to the user.',US
+15,The system will display a blank set of ratings if there are not ratings yet defined.',US
+15,The product shall display a map of the company building showing conference room locations.',US
+15,The product shall display room equipment according to search parameters.',US
+15,The product shall display conference rooms according to search parameters.',US
+15,The product will display an available status for unreserved conference rooms.',US
+15, viewing a movie details  the website will display the movies description  actor  and director entered in by the administrator.',US
+15, Once a game is initiated  the product shall display a defensive grid to each player',US
+15, Once a game is initiated  the product shall display an offensive grid to each player.',US
+15,The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.',US
+15,The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.',US
+15,The product shall have an intuitive user interface.',US
+15,The leads washing functionality will have an interface in which lead data parameters can be maintained.',US
+15,The appropriate user must be able to input stressor events as directed.,US
+15,The appropriate user must be able to input exercise events as directed,US
+15,The appropriate user must be able to input overall health assessment as directed,US
