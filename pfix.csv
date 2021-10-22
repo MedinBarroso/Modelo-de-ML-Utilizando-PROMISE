@@ -505,3 +505,23 @@ Project.ID,Requirement.description,NFR
 6,'The product shall be available for distribution as a packaged CD.',PO
 6,' The product will be available for licensing as a one-server  two-five servers  or five-or-more servers license.',PO
 8,'The product shall be able to be installed in the specified environment within 1 working day.',PO
+8,The learning time of the system by a user must be less than 4 hours.',US
+8,The rate of errors committed by the user must be less than 1% of the total transactions executed in the system.',US
+8,The system must have appropriately structured user manuals.',US
+8,The system must provide error messages that are informative and end user oriented.',US
+8,The system must have an online help module.',US
+8,"The web application must have a “Responsive” design in order to guarantee adequate visualization on multiple personal computers, tablets and smartphones.'",US
+8,The system must have well-formed graphical interfaces.',US
+8,The system must have an availability of 99.99% of the times in which a user tries to access it.',RE
+8,The time to start or restart the system cannot be more than 5 minutes.',RE
+8,The rate of system failure times may not be greater than 0.5% of the total operating time.',RE
+8,The average duration of failures may not exceed 15 minutes.',RE
+8,The probability of failure of the System may not be greater than 0.05.',RE
+8,The system must be able to process N transactions per second. ',PE
+8,All system functionality and business transaction must respond to the user in less than 5 seconds.',PE
+8,"The system must be able to operate adequately with up to 100,000 users with concurrent sessions.'",PE
+8,Modified data in the database must be updated for all accessing users in less than 2 seconds.',PE
+8,The system must be developed to work on different platforms.',PO
+8,The system must run on Linux and Windows.',PO
+8,The application must be able to run on the Android operating system from version 4.0 onwards.',PO
+8,The application must run on Google Chrome.',PO
