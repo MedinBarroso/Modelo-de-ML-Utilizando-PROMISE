@@ -510,7 +510,7 @@ Project.ID,Requirement.description,NFR
 8,The system must have appropriately structured user manuals.',US
 8,The system must provide error messages that are informative and end user oriented.',US
 8,The system must have an online help module.',US
-8,"The web application must have a “Responsive” design in order to guarantee adequate visualization on multiple personal computers, tablets and smartphones.'",US
+8,"The web application must have a Responsive design in order to guarantee adequate visualization on multiple personal computers, tablets and smartphones.'",US
 8,The system must have well-formed graphical interfaces.',US
 8,The system must have an availability of 99.99% of the times in which a user tries to access it.',RE
 8,The time to start or restart the system cannot be more than 5 minutes.',RE
