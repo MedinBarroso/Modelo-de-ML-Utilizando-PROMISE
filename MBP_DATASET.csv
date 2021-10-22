@@ -399,17 +399,6 @@ Project.ID,Requirement.description,NFR
 8,' When purchasing a streaming movie or pre-paid card via credit card  the processing time should have a maximum response time of 15 seconds.',PE
 8,' When streaming a movie  the buffering time should take no longer than 10 seconds (plus any latency on the userï¿½s connection.)',PE
 8,' While streaming a movie  buffering should only occur if there is latency in the userï¿½s connection.',PE
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
 8,'All aspects of the website shall be accessed by a web browser over the Internet.',US
 8,'The same hardware supporting the current website will be used to support the new system.',US
 8,' We must be able to interface with the following browsers: IE 5.X  6.0  Netscape 6.x  7.x  8.x and Firefox 1.0.',US
@@ -424,6 +413,17 @@ Project.ID,Requirement.description,NFR
 8,'The website will provide a help section with answers and solutions to common problems.',US
 8,' Velkat staff will be available for phone support between 7am-7pm  M-F to provide technical support to the Izogn administrators.',RE
 8,'The product shall be able to be installed in the specified environment within 1 working day.',US
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
 ,,
 ,,
 ,,
